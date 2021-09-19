@@ -1,16 +1,31 @@
-#nav_bar ul{
-    list-style-type: none;
-    text-align: center;
-    background-color: grey;
-    
- }
+/* Estilos para la paginas de proyecto Computer-Repair */
 
- #nav_bar li{
-    display: inline;
-    text-align: center;
-    margin: 0 10px 0 0;
- }
+/*Formato al div*/
+#nav_bar ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: grey;
+  position: center;    
+  top: 0;
+}
 
- #text2 a{
-     color: white;
- }
+/*Formato a los elementos de lista*/
+#nav_bar li {
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+
+/*Formato a los link */
+#nav_bar li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: none;
+  text-decoration: none;
+}
+/*Formato a los link cuando se pasa el mouse*/
+#nav_bar li a:hover {
+  background-color: #120ae6;
+  color: white;
+}
