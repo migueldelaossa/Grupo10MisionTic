@@ -1,0 +1,16 @@
+#nav_bar ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: grey;
+    
+ }
+
+ #nav_bar li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+ #text2 a{
+     color: white;
+ }
