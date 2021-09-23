@@ -32,7 +32,6 @@
   color: white;
 }
 
-<<<<<<< HEAD
 #nav_bar button a{
   color: #666;
   background-color: #eeeeee;
@@ -48,7 +47,7 @@
 #nav_bar button a:hover {
   background-color: #120ae6;
   color: white;
-=======
+}
 /*Formato a los botones de cambio de interfaz*/
 
 .botonP
@@ -77,5 +76,4 @@ background-color: #810505; /*color botón*/
 color: #ffffff; /*color texto*/
 text-decoration:underline; /*decoración texto*/
 border-radius: 50px; /*bordes redondos*/
->>>>>>> feature/interfacegeneral
 }
