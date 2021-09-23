@@ -4,10 +4,9 @@
 #nav_bar ul {
   list-style-type: none;
   text-align: center;
-  background-color: #eeeeee;
-  position: center;
+  background-color: grey;
+  position: center;    
   top: 0;
-  padding: 30px 50px
 }
 
 /*Formato a los elementos de lista*/
@@ -19,36 +18,18 @@
 
 /*Formato a los link */
 #nav_bar li a {
-  padding: 30px 50px 30px 50px;
+  padding: 2px 7px 2px 7px;
   color: #666;
   background-color: #eeeeee;
   border: none;
   text-decoration: none;
 }
-
 /*Formato a los link cuando se pasa el mouse*/
 #nav_bar li a:hover {
   background-color: #120ae6;
   color: white;
 }
 
-<<<<<<< HEAD
-#nav_bar button a{
-  color: #666;
-  background-color: #eeeeee;
-  border: 2px;
-  border-radius: 2px;
-  text-decoration: none;
-  margin: 1px 1px;
-  outline: none;
-  width:100px;
-  height:40px;
-}
-
-#nav_bar button a:hover {
-  background-color: #120ae6;
-  color: white;
-=======
 /*Formato a los botones de cambio de interfaz*/
 
 .botonP
@@ -77,5 +58,4 @@ background-color: #810505; /*color botón*/
 color: #ffffff; /*color texto*/
 text-decoration:underline; /*decoración texto*/
 border-radius: 50px; /*bordes redondos*/
->>>>>>> feature/interfacegeneral
 }
